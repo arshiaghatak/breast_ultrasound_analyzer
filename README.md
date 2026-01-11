@@ -51,7 +51,7 @@ The model extracts 29 different features from each image:
 ## Files Structure
 
 ```
-Polygence Folder/
+Folder/
 ├── breast_cancer_classifier.py    # Main training script
 ├── breast_cancer_gui.py          # GUI interface (recommended)
 ├── launch_gui.py                 # GUI launcher script
