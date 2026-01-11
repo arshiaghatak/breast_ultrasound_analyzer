@@ -100,7 +100,7 @@ python3 launch_gui.py
 - **Model Selection**: Choose between Random Forest, SVM, or MLP classifiers
 - **One-Click Prediction**: Click "Predict" to classify the image
 - **Visual Results**: See confidence scores with progress bars
-- ⚡ **Real-time Status**: Progress indicator and status updates
+- **Real-time Status**: Progress indicator and status updates
 
 ### Command Line Prediction
 For command-line usage:
