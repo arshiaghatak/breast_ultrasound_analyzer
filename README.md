@@ -165,3 +165,10 @@ The trained models and scalers are saved as:
 - **MLP**: `breast_cancer_model_mlp.pkl` and `scaler_mlp.pkl`
 
 This allows you to load and use any model for predictions without retraining. The GUI includes a model selector to switch between models on the fly.
+
+## Citation
+
+If you use this project for research, presentations, or other work, please cite:
+
+Arshia Ghatak, *Machine Learning Models for Breast Cancer Diagnosis Using Ultrasound Images*, 2026.  
+GitHub repository: https://github.com/arshiaghatak/breast_ultrasound_analyzer
