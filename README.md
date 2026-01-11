@@ -2,14 +2,14 @@
 
 A machine learning model that classifies breast cancer tumors into three categories: **Benign**, **Normal**, and **Malignant** using multiple algorithms: Random Forest, SVM (Support Vector Machine), and MLP (Multi-Layer Perceptron).
 
-## 🎯 Results Summary
+## Results Summary
 
 Based on the confusion matrix results with **balanced dataset** (70-30 train-test split + oversampling):
 
 - **Overall Accuracy**: 84.3%
 - **Best Performing Class**: **Normal** (93.9% accuracy)
 - **Class-wise Performance**:
-  - Normal: 93.9% accuracy ⭐
+  - Normal: 93.9% accuracy
   - Malignant: 86.4% accuracy
   - Benign: 72.5% accuracy
 
@@ -22,7 +22,7 @@ The model was trained on **1,311 breast cancer images** (balanced through oversa
 
 *Note: All MASK files were automatically excluded from training as requested. Dataset was balanced using oversampling to ensure equal representation of all classes.*
 
-## 🚀 Features
+## Features
 
 ### Image Processing
 - Automatic exclusion of mask files (files containing "MASK" in filename)
@@ -46,7 +46,7 @@ The model extracts 29 different features from each image:
 4. **Color Histogram Features** (15 features):
    - HSV histogram bins (5 per channel)
 
-## 📁 Files Structure
+## Files Structure
 
 ```
 Polygence Folder/
@@ -68,14 +68,14 @@ Polygence Folder/
 └── README.md                     # This file
 ```
 
-## 🛠️ Installation
+## Installation
 
 1. Install required dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-## 🎯 Usage
+## Usage
 
 ### Training the Model
 ```bash
@@ -93,11 +93,11 @@ python3 launch_gui.py
 ```
 
 **GUI Features:**
-- 🖼️ **Image Selection**: Click "Select Image" to browse and choose an image
-- 👁️ **Image Preview**: See a thumbnail preview of your selected image
-- 🤖 **Model Selection**: Choose between Random Forest, SVM, or MLP classifiers
-- 🎯 **One-Click Prediction**: Click "Predict" to classify the image
-- 📊 **Visual Results**: See confidence scores with progress bars
+- **Image Selection**: Click "Select Image" to browse and choose an image
+- **Image Preview**: See a thumbnail preview of your selected image
+- **Model Selection**: Choose between Random Forest, SVM, or MLP classifiers
+- **One-Click Prediction**: Click "Predict" to classify the image
+- **Visual Results**: See confidence scores with progress bars
 - ⚡ **Real-time Status**: Progress indicator and status updates
 
 ### Command Line Prediction
@@ -107,7 +107,7 @@ python3 predict_new_image.py
 ```
 Then enter the path to the image you want to classify.
 
-## 📈 Model Performance
+## Model Performance
 
 ### Confusion Matrix
 The model shows **excellent balanced performance** across all classes after oversampling:
@@ -126,7 +126,7 @@ The most important features for classification include:
 - Texture characteristics
 - Shape properties (area, circularity)
 
-## 🔬 Technical Details
+## Technical Details
 
 - **Algorithms**: 
   - Random Forest Classifier (n_estimators=100)
@@ -138,14 +138,14 @@ The most important features for classification include:
 - **Feature Scaling**: StandardScaler applied to each model
 - **Image Preprocessing**: Resize to 224x224, RGB conversion
 
-## ⚠️ Important Notes
+## Important Notes
 
 1. **Best Class**: The **Normal** class shows the highest accuracy (93.9%) in the balanced model
 2. **Dataset Balancing**: Oversampling was used to ensure equal representation of all classes
 3. **Mask Exclusion**: All files containing "MASK" are automatically filtered out
 4. **Medical Disclaimer**: This is a research/educational tool and should not be used for actual medical diagnosis
 
-## 🎨 Visualizations
+## Visualizations
 
 The training process generates several visualizations:
 - `confusion_matrix.png`: Shows the classification performance matrix for Random Forest (in percentages)
@@ -155,7 +155,7 @@ The training process generates several visualizations:
 
 **Note**: All confusion matrices display percentages (0-100%) instead of raw counts for easier interpretation. Each row sums to 100%, showing the distribution of predictions for each actual class.
 
-## 🔄 Model Persistence
+## Model Persistence
 
 The trained models and scalers are saved as:
 - **Random Forest**: `breast_cancer_model.pkl` and `scaler.pkl`
