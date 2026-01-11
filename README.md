@@ -1,7 +1,7 @@
 # Breast Cancer Tumor Classifier
 
-##This project is licensed under the MIT License. Please give credit to the author, Arshia Ghatak, when using or modifying this work. See the LICENSE file for details.
-
+**This project is licensed under the MIT License. Please give credit to the author, Arshia Ghatak, when using or modifying this work. See the LICENSE file for details.**
+##
 A machine learning model that classifies breast cancer tumors into three categories: **Benign**, **Normal**, and **Malignant** using multiple algorithms: Random Forest, SVM (Support Vector Machine), and MLP (Multi-Layer Perceptron).
 
 ## Results Summary
