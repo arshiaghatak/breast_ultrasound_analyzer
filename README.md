@@ -13,7 +13,7 @@ Based on the confusion matrix results with **balanced dataset** (70-30 train-tes
   - Malignant: 86.4% accuracy
   - Benign: 72.5% accuracy
 
-## 📊 Dataset
+## Dataset
 
 The model was trained on **1,311 breast cancer images** (balanced through oversampling):
 - **Benign**: 437 images (original)
